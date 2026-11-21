@@ -1,0 +1,40 @@
+# Local Python environments
+.venv/
+.venv-foundation/
+venv/
+
+# Downloaded model weights
+.model-cache/
+
+# Python and notebook temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local notebook backup
+/buckethead_wikipedia_forecasting copy.ipynb
+
+# macOS files
+.DS_Store
+
+# Test and build artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Saved forecast caches under results/ are scientific records. Keep them in Git.
+
+# Private article drafts, reviews, packages, and exports
+/publication/
+
+# Article-only supporting files
+/figures/publication/
+/results/publication/
+/src/research/publication/
+/provenance/publication/
+/provenance/claims/
+/provenance/visual_manifest.json
+/provenance/historical/publication__freeze_manifest.json
