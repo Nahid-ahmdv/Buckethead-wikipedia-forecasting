@@ -1,8 +1,8 @@
 {
-  "version": "github-delivery-v10-readme-header",
+  "version": "github-delivery-v11-header-image-update",
   "scope": "Public scientific delivery; private TDS assets are intentionally excluded",
-  "parent_manifest": "provenance/checks/readme_header_parent_manifest.json",
-  "parent_manifest_sha256": "e8be6b371c90cf91092bc56c3963272a8272ad1fca291ff92b25b55df6898d9f",
+  "parent_manifest": "provenance/checks/header_image_update_parent_manifest.json",
+  "parent_manifest_sha256": "3e430c7c2b3620af728ef7da1eaebbe61f45b430147cecf2611dfb0a1f298fc2",
   "files": {
     ".gitignore": "62e53dad38a864ba0f2cee7079b32cda155466be752d82668fc7a88f138b8816",
     "LICENSE": "6ab517149c5d3f8e683cc18bc534a3297429efb3186621364129f707c85e9d03",
@@ -935,7 +935,7 @@
     "src/verify_saved.py": "656b74afb96db88127246fc62f9015f302b8f44e1847eb9ee3a5b98fa2c77462",
     "tests/test_delivery.py": "7c67170eed12b6b05ac51c51de572f7cd14cfb09b7c8ac20fbad1df173fab539",
     "tests/test_foundation.py": "1e939ed23e33ddc84bef5d39be1c4ed2131a9ef30939a1939652e2cf7ff43187",
-    "figures/Buckethead.jpg": "b04f5a655f031ce36ec8481cfc1d892947b4a734c7f0cc447a906589a18d41be"
+    "figures/Buckethead.jpg": "a3d2287520e1a054563014372397cfeebd200425324951d1d1e3abb00d6771f6"
   },
-  "change_record": "provenance/checks/readme_header_revision.json"
+  "change_record": "provenance/checks/header_image_update.json"
 }

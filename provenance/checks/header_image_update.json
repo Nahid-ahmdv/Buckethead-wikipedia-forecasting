@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-11-21T02:47:23.596712+00:00",
+  "scope": "Update the integrity record for the author-modified README header image. The image itself was not edited by the agent.",
+  "parent_manifest_sha256": "3e430c7c2b3620af728ef7da1eaebbe61f45b430147cecf2611dfb0a1f298fc2",
+  "manifest_sha256": "01f7b06afeb99204fd7665be56fff9e151610b23be0ce97cde7d8fffad39d21c",
+  "image_path": "figures/Buckethead.jpg",
+  "image_before_sha256": "b04f5a655f031ce36ec8481cfc1d892947b4a734c7f0cc447a906589a18d41be",
+  "image_after_sha256": "a3d2287520e1a054563014372397cfeebd200425324951d1d1e3abb00d6771f6",
+  "other_manifest_files_verified_unchanged": 931,
+  "notebook_changed": false,
+  "experiments_run": false
+}
