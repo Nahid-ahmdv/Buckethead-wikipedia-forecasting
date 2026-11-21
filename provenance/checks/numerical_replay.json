@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "development": {
+    "status": "passed",
+    "fit_records_verified": 324,
+    "daily_predictions_verified": 9072,
+    "scored_tuning_origins": 12,
+    "scored_selection_origins": 12,
+    "final_predictions": 0,
+    "final_performance_rows": 0,
+    "common_scale_verified": true,
+    "calibration_n": 336,
+    "calibration_rank": 270,
+    "latest_scored_date": "2025-10-04"
+  },
+  "original_evaluation": {
+    "status": "passed",
+    "procedure_origin_records": 39,
+    "daily_forecasts": 1092,
+    "primary_days_per_procedure": 364,
+    "sensitivity_days_per_procedure": 335,
+    "sensitivity_paths": 12,
+    "partial_sensitivity_path": "final_02: 27 days; final_01 contributes zero days",
+    "metric_reconciliation": "Independent NumPy arithmetic, baseline reconstruction, historical MASE pairs, all interval bounds and paired differences",
+    "saved_parameter_sarimax_reconstructions": 13,
+    "maximum_sarimax_reconstruction_difference": 5.2523319027386606e-11,
+    "fallbacks": 0,
+    "recorded_python_warnings": 0,
+    "final_tuning_or_interval_recalibration": false
+  },
+  "retrospective_followup": {
+    "status": "passed",
+    "records_verified": 288,
+    "daily_predictions_verified": 8064,
+    "saved_parameter_replays": 144,
+    "maximum_replay_difference": 6.821210263296962e-12,
+    "matched_ml_pairs_verified": 36,
+    "raw_lgbm_original_control_shared_days": 644,
+    "maximum_raw_lgbm_control_difference": 0.0,
+    "metric_population_rows": 40,
+    "selection_paths": 7,
+    "calibration_days": 112,
+    "fallbacks": 0,
+    "recorded_python_warnings": 13,
+    "fresh_future_paths_evaluated": 0,
+    "new_optimizer_fits_in_verifier": 0
+  },
+  "new_optimizer_fits": 0,
+  "historical_reports_written": false
+}

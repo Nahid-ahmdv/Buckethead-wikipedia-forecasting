@@ -1,0 +1,44 @@
+{
+  "reviewed_on": "2026-11-05",
+  "verification_method": "Official public documentation inspected with web tools; source facts summarized, no historical traffic revision pair acquired.",
+  "sources": [
+    {
+      "id": "W01",
+      "title": "Wikimedia pageview API reference",
+      "url": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html",
+      "fact": "Standard pageview endpoints begin July 1, 2015."
+    },
+    {
+      "id": "W02",
+      "title": "Wikimedia pageview concepts",
+      "url": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/concepts/page-views.html",
+      "fact": "User/automated/spider classifications and redirects differ from unique-reader counts or a sum over aliases."
+    },
+    {
+      "id": "W03",
+      "title": "May 2025 bot-traffic incident",
+      "url": "https://wikitech.wikimedia.org/wiki/Data_Platform/Data_Lake/Data_Issues/2025-06-03_May_2025_spike_in_bot_traffic",
+      "reviewed_revision_id": 2352039,
+      "fact": "Retrospective corrections affect part of the collected history. See source-revision report for the treatment."
+    },
+    {
+      "id": "W04",
+      "title": "November 2025 bot-traffic incident, 2026 response",
+      "url": "https://wikitech.wikimedia.org/wiki/Data_Platform/Data_Lake/Data_Issues/2026-06-10_Nov_2025_spike_in_bot_traffic",
+      "reviewed_revision_id": 2462581,
+      "fact": "Some historical data were irreparable. This supplies the independent calendar basis of the sensitivity, not article-specific correction estimates."
+    },
+    {
+      "id": "W05",
+      "title": "Wikimedia API access policy",
+      "url": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/documentation/access-policy.html",
+      "fact": "API data CC0; requests identify the client and run sequentially."
+    },
+    {
+      "id": "M01",
+      "title": "Forecasting: Principles and Practice, evaluation and cross-validation",
+      "url": "https://otexts.com/fpp3/toolbox.html#time-series-cross-validation",
+      "fact": "Methodological reference for historical forecast origins and horizon-specific evaluation; specific choices in this project are its own protocol."
+    }
+  ]
+}

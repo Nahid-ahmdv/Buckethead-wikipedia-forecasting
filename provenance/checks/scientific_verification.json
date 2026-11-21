@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "integrity": {
+    "status": "passed",
+    "delivery_files_verified": 833,
+    "mapped_source_artifacts_verified": 810,
+    "notebooks": [
+      "buckethead_wikipedia_forecasting.ipynb"
+    ],
+    "scope": "Included delivery files; omitted working-archive files are not verified"
+  },
+  "code_cells": 23,
+  "embedded_figures_verified": 9,
+  "local_links_checked": 129,
+  "article_figures": 5,
+  "scientific_checks": {
+    "cached_origin_records_verified": 651,
+    "daily_predictions_verified": 18228,
+    "summary_rows_recomputed": 73,
+    "delayed_baseline_paths_reconstructed": 72,
+    "original_overprediction_days": 326,
+    "original_mean_signed_error": 361.9069008671787,
+    "correction_improvement_percent": 0.9212871012803658,
+    "masked_improvement_percent": 0.0568609563653788,
+    "original_intervals": {
+      "days": 364,
+      "coverage": 0.4478021978021978,
+      "mean_width": 816.5730570913839,
+      "below": 190,
+      "above": 11,
+      "interval_score80": 1867.1894224571377
+    },
+    "phase4_intervals": {
+      "days": 364,
+      "coverage": 0.9587912087912088,
+      "mean_width": 1142.875,
+      "below": 2,
+      "above": 13,
+      "interval_score80": 1252.9505494505495
+    }
+  },
+  "new_optimizer_fits": 0,
+  "historical_archive_required": false
+}

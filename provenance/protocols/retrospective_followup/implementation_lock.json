@@ -1,0 +1,25 @@
+{
+  "preflight_passed": true,
+  "created_at_utc": "2026-11-05T16:07:42.662136+00:00",
+  "files": {
+    "phase4/engine.py": "c9fa5c75ed8e8b2f2695fd8bbb72a26e6108308fd20e2b92fcdf5d925f9025e3",
+    "phase4/run_experiment.py": "e367882764cf621cd7de75437a6edbfdfb5a9fc1c402bea7248d545728692c01",
+    "phase4/tests.py": "ca0f7bbcff1ff9908aa4722248e6fb6277b1796a27bdf59b7eb327f95a8c4f6c",
+    "phase4/preflight.py": "7ae09b92a3019e1cb1765276fc4c735cad7a573e22e4c234354191dc6a1576f8",
+    "phase4/PROTOCOL.md": "9e9b30ca2da2952088d457cfe466792f9c401018ff10d359f003ea126a13f153",
+    "phase4/PROTOCOL_V2.md": "76efd5ead199f45d2db3f18e4b9fb3a66a249ed006e3f2c1dedd2f0023288d53",
+    "phase4/candidates.json": "f67ceccdea714969ae97427bce7beb4f7af498aad2726957b613871bed83d718",
+    "phase4/schedule.csv": "380fa31192e0af42fb127e9884a3e4b2258fae3e56bc68000275b1ae1390b577",
+    "phase4/schedule_v2.csv": "c895e219380781daebce755634aad9eb95d43e58ebfba1c32c88bedee63a6122",
+    "phase4/AMENDMENT_01.md": "92c27f7b6c5f03461377d9346fe35669a608eb4a0201ca11d2260ac6b130c9d5",
+    "phase4/protocol_amendment_01.json": "33d6f0163d7330c442902444effb61e034d40c05446fc2fd351a2f0dc3ad79e2",
+    "phase4/requirements.txt": "ff5f808651a176723f5c68bfa749c10f86aa655383723f62099e7645b2fa4719",
+    "phase4/requirements.lock": "d594f178e6a695348207d64993176c38d0aeb3337d82debcce0a86c6907c3aa4",
+    "phase4/protocol_freeze.json": "6404167d7c1542f032d19dac00970151aecdfd167d2ae2681b11045da147e811",
+    "phase4/results/environment.json": "9a1a4b8a32df6c3cb252bef66beff65bd131e4152331980c54b0f9e690138109",
+    "phase4/results/preflight.json": "ed715e3b804d5de5c0e42f305e0fae493586e2317e92d686fcb4900bee0052fe"
+  },
+  "inherited_engine_sha256": "3419bffd7fb60cc7bdb41ecde6ef2b47ab197acd0085577bb5bbcb79cef71027",
+  "canonical_input_sha256": "24fd52457fd131725600428a3a1bbbb256dce882ecc5c29f406a93f75f14f14e",
+  "real_series_candidate_fits": 0
+}

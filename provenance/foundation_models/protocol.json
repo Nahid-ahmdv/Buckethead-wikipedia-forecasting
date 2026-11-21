@@ -1,0 +1,116 @@
+{
+  "version": "foundation-comparison-v1",
+  "frozen_at_utc": "2026-11-18T09:03:50.836374+00:00",
+  "research_role": "New retrospective extension; original final year already inspected.",
+  "question": "Can frozen time-series foundation models improve the delayed 28-day pageview forecast over the eight-week weekday mean?",
+  "models": {
+    "chronos2": {
+      "repository": "amazon/chronos-2",
+      "revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+      "repository_created_at": "2025-10-30T14:54:39.000Z",
+      "repository_last_modified": "2026-06-05T11:55:42.000Z",
+      "files": {
+        "config.json": "ef1143bfdc9c0376d9a056eefca46cb4b1ec3d0ffacd541ff56feb40fb708031",
+        "model.safetensors": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42"
+      },
+      "point_forecast": "native q0.5, after shared monotone projection and zero clipping",
+      "quantiles": [
+        0.1,
+        0.5,
+        0.9
+      ]
+    },
+    "timesfm25": {
+      "repository": "google/timesfm-2.5-200m-pytorch",
+      "revision": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+      "repository_created_at": "2025-09-02T18:55:45.000Z",
+      "repository_last_modified": "2025-10-02T17:21:38.000Z",
+      "files": {
+        "config.json": "cd3315b760d5cc7e278d7afdf41b897031ced888fc6c115bd9b3ac0ea2c47408",
+        "model.safetensors": "2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8"
+      },
+      "point_forecast": "native q0.5, after shared monotone projection and zero clipping",
+      "quantiles": [
+        0.1,
+        0.5,
+        0.9
+      ],
+      "forecast_config": {
+        "max_context": 1024,
+        "max_horizon": 128,
+        "normalize_inputs": true,
+        "per_core_batch_size": 1,
+        "use_continuous_quantile_head": true,
+        "force_flip_invariance": true,
+        "infer_is_positive": false,
+        "fix_quantile_crossing": false,
+        "return_backcast": false
+      }
+    }
+  },
+  "context_length": 1024,
+  "horizon": 28,
+  "observation_cutoff_days_before_issue": 2,
+  "bridge_steps": 29,
+  "discard_bridge_steps": 1,
+  "input": "One univariate sequence of raw counts; no title text, event features, related series or future observations.",
+  "context_length_selection": "Fixed by design before model inference; no search or scored pilot.",
+  "fine_tuning": false,
+  "model_selection": false,
+  "optimizer_fits": 0,
+  "quantile_postprocessing": "Sort q0.1/q0.5/q0.9 within each target, then clip each at zero. Retain raw values and repair counts.",
+  "primary_point_metric": "MAE of the same q0.5 point forecast for both models",
+  "secondary_metrics": [
+    "pooled RMSE",
+    "common three-year weekly-scale MASE",
+    "mean prediction-minus-actual",
+    "paired path MAE differences"
+  ],
+  "intervals": "Native q0.1 to q0.9 pointwise bands, no local residual calibration. Coverage, clipped width, interval score, directional misses and complete-path containment are descriptive.",
+  "schedule": {
+    "source": "provenance/protocols/original/split_schedule.csv",
+    "boundary_blocks_excluded": true,
+    "tuning": 12,
+    "selection": 12,
+    "retrospective": 13
+  },
+  "primary_evaluation": {
+    "dates": [
+      "2025-11-02",
+      "2026-10-31"
+    ],
+    "paths": 13,
+    "days": 364
+  },
+  "sensitivity": "Score the same predictions excluding November 2025 targets: 335 days, 12 contributing paths. Do not remove November context or refit.",
+  "reference_procedures": [
+    "eight-week weekday mean",
+    "weekly naive",
+    "original selected SARIMAX",
+    "retrospective LightGBM correction"
+  ],
+  "failure_policy": "Unexpected or nonfinite model outputs stop execution and retain a failure record; no baseline fallback or optimizer retries.",
+  "pretraining_audit": {
+    "timesfm25": "Official card identifies Wikimedia Pageviews through November 2023, GIFT-Eval Pretrain, Google Trends and synthetic data. Exact Buckethead membership and coverage of all corpus components are unverified. The first tuning path intersects the documented Wikimedia cutoff month.",
+    "chronos2": "Technical report lists Wiki among real pretraining datasets. Exact Buckethead membership and last training date for every component are unverified.",
+    "interpretation": "No task-specific fine-tuning does not prove previously unseen series or target dates. Shared older history is distinct from evaluated-target overlap. Scores are not certified contamination-free.",
+    "availability": "Modern fixed-checkpoint backtest. Early historical origins precede checkpoint availability; no claim that these models could have been issued then."
+  },
+  "runtime": {
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 1,
+    "torch_compile": false,
+    "seed": 42
+  },
+  "seed": 42,
+  "essential_package_versions": {
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "chronos-forecasting": "2.2.2",
+    "timesfm": "2.0.2",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3"
+  },
+  "prospective_confirmation": "Not performed; no new data retrieval or future forecast issuance in this extension."
+}

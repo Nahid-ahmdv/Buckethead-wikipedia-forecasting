@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "executed_at_utc": "2026-11-06T12:54:20.325207Z",
+  "code_cells": 23,
+  "errors": 0,
+  "figures": 9,
+  "new_optimizer_fits": 0,
+  "scientific_outputs_identical_after_nbformat_normalization_cell_positions": [
+    3,
+    5,
+    6,
+    8,
+    10,
+    13,
+    16,
+    18,
+    20,
+    22,
+    24,
+    28,
+    30,
+    32,
+    34,
+    37,
+    39,
+    41,
+    43,
+    45
+  ],
+  "updated_delivery_status_or_path_message_cell_positions": [
+    2,
+    26,
+    48
+  ],
+  "notebook_sha256": "3db8ee5328670931e9d6f892552c1ea3a76f34b88044b4db510d3fb57d3325ed",
+  "scope": "Sequential packaging execution; scientific outputs compared after normalizing notebook text-list serialization; original notebook unchanged"
+}

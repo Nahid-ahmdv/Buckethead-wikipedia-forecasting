@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-11-21T02:04:46.619846+00:00",
+  "scope": "Public repository README and grouped gitignore documentation; scientific artifacts unchanged.",
+  "parent_manifest_sha256": "f2fdad09d44466591e48e602628e53bb727a87394a38146933175901ebe0eb5d",
+  "manifest_sha256": "72bc811df66909c945cb0eb4fdce18ff1701bd42c68ddfe2cd96223233c47897",
+  "changes": {
+    ".gitignore": {
+      "before": "d6eea111f0a331a2dc191bfb5c066f0b7204edeae2d9f73fb058d60ac1befeaf",
+      "after": "62e53dad38a864ba0f2cee7079b32cda155466be752d82668fc7a88f138b8816"
+    },
+    "README.md": {
+      "before": "e0b9287cf7b64c7d9af5e9a69a2b1b60e703f818289d817cd1f7338df31c5309",
+      "after": "089c5b4b049601d7072ec2206cc77bd350ebc187cdaa41537105674a60333798"
+    }
+  },
+  "edit_summary": [
+    "Group existing exclusion rules by purpose and distinguish forecast evidence caches from downloaded model weights.",
+    "Update the README with the forecasting task, original and retrospective results, reader workflow, agreed repository structure, and author links."
+  ],
+  "ignore_rules_changed": false,
+  "ignore_probes_passed": 22,
+  "required_files_retained": 931,
+  "protected_manifest_files_unchanged": 929,
+  "notebook_sha256": "f3538ddeb3997dbc3b74be65c58f3f7541506a8aa81feca51020ba67978f637c",
+  "notebook_executed": false,
+  "model_fits": 0,
+  "model_inference_calls": 0,
+  "verification_method": "Read-only saved-artifact verification in a public checkout with ignored local files removed.",
+  "delivery_verification": {
+    "status": "passed",
+    "integrity": {
+      "status": "passed",
+      "delivery_files_verified": 931,
+      "mapped_source_artifacts_verified": 799,
+      "notebooks": [
+        "buckethead_wikipedia_forecasting.ipynb"
+      ],
+      "scope": "Included delivery files; omitted working-archive files are not verified"
+    },
+    "code_cells": 30,
+    "embedded_figures_verified": 13,
+    "local_links_checked": 135,
+    "private_publication_checked": false,
+    "article_figures": null,
+    "scientific_checks": {
+      "cached_origin_records_verified": 651,
+      "daily_predictions_verified": 18228,
+      "summary_rows_recomputed": 73,
+      "delayed_baseline_paths_reconstructed": 72,
+      "original_overprediction_days": 326,
+      "original_mean_signed_error": 361.9069008671787,
+      "correction_improvement_percent": 0.9212871012803658,
+      "masked_improvement_percent": 0.0568609563653788,
+      "original_intervals": {
+        "days": 364,
+        "coverage": 0.4478021978021978,
+        "mean_width": 816.5730570913839,
+        "below": 190,
+        "above": 11,
+        "interval_score80": 1867.1894224571377
+      },
+      "phase4_intervals": {
+        "days": 364,
+        "coverage": 0.9587912087912088,
+        "mean_width": 1142.875,
+        "below": 2,
+        "above": 13,
+        "interval_score80": 1252.9505494505495
+      }
+    },
+    "foundation_checks": {
+      "status": "passed",
+      "procedure_origin_records": 74,
+      "bridge_predictions": 2146,
+      "scored_predictions": 2072,
+      "models": [
+        "chronos2",
+        "timesfm25"
+      ],
+      "optimizer_fits": 0,
+      "fine_tuning": false,
+      "new_future_paths": 0,
+      "verification_inference_calls": 0
+    },
+    "new_optimizer_fits": 0,
+    "historical_archive_required": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "point_summary_rows": 12,
+  "raw_quantile_caches": 74,
+  "foundation_interval_rows": 4,
+  "project_scoring_modules_imported": false,
+  "optimizer_fits": 0,
+  "model_inference_calls": 0,
+  "completed_at_utc": "2026-11-18T09:16:33.583883+00:00"
+}

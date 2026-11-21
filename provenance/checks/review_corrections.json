@@ -1,0 +1,169 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-11-15T18:00:08.026267+00:00",
+  "scope": "Four requested review corrections, verified in an isolated copy before installation. No new model fitting or forecasting experiments.",
+  "notebook_sha256": "e7909e0566d7b789692c6859a421dbb03e12fe44808bef0720f2e24dbd4d4178",
+  "manifest_sha256": "ab28beacd4400e62ed7cef48914776c4e1e91efe22c38cabb74a93737477fe1b",
+  "parent_notebook_sha256": "bdb4972e9c3ee5e514cc9f59572f7dfa7f77c49e1d5f1370b1bb5b80c8a25c16",
+  "parent_manifest_sha256": "322a6b2f684504e59f298c85c0f69ac32a721513e659c154e6cd583ea2eab818",
+  "original_code_cells_changed": 0,
+  "code_cells_added": 0,
+  "protected_scientific_files_unchanged": 771,
+  "source_map_unchanged": true,
+  "tests": {
+    "status": "passed",
+    "test_methods": 8,
+    "optimizer_fits": 0,
+    "scope": "Delivery integrity, mature labels, injected unexpected/numerical errors in all three runners, and unchanged success/cleanup behavior."
+  },
+  "fresh_kernel_execution": {
+    "code_cells": 23,
+    "errors": 0,
+    "optimizer_fits": 0,
+    "scientific_outputs_unchanged": true,
+    "presentation_output_cells_refreshed": [
+      2
+    ],
+    "embedded_figures": 9
+  },
+  "delivery_verification": {
+    "status": "passed",
+    "integrity": {
+      "status": "passed",
+      "delivery_files_verified": 827,
+      "mapped_source_artifacts_verified": 799,
+      "notebooks": [
+        "buckethead_wikipedia_forecasting.ipynb"
+      ],
+      "scope": "Included delivery files; omitted working-archive files are not verified"
+    },
+    "code_cells": 23,
+    "embedded_figures_verified": 9,
+    "local_links_checked": 121,
+    "private_publication_checked": false,
+    "article_figures": null,
+    "scientific_checks": {
+      "cached_origin_records_verified": 651,
+      "daily_predictions_verified": 18228,
+      "summary_rows_recomputed": 73,
+      "delayed_baseline_paths_reconstructed": 72,
+      "original_overprediction_days": 326,
+      "original_mean_signed_error": 361.9069008671787,
+      "correction_improvement_percent": 0.9212871012803658,
+      "masked_improvement_percent": 0.0568609563653788,
+      "original_intervals": {
+        "days": 364,
+        "coverage": 0.4478021978021978,
+        "mean_width": 816.5730570913839,
+        "below": 190,
+        "above": 11,
+        "interval_score80": 1867.1894224571377
+      },
+      "phase4_intervals": {
+        "days": 364,
+        "coverage": 0.9587912087912088,
+        "mean_width": 1142.875,
+        "below": 2,
+        "above": 13,
+        "interval_score80": 1252.9505494505495
+      }
+    },
+    "new_optimizer_fits": 0,
+    "historical_archive_required": false
+  },
+  "cached_replays": {
+    "development": {
+      "phase": "development",
+      "mode": "cached",
+      "fixed_recipe": true,
+      "expected_origin_records": 324,
+      "new_model_variants": 0,
+      "adapter_failure_policy": "explicit-numerical-failures-only-v1",
+      "status": "passed",
+      "completed_at_utc": "2026-11-15T17:54:03.408369+00:00",
+      "maximum_prediction_difference": 0.0,
+      "daily_predictions": 9072,
+      "prediction_calls_forbidden": true,
+      "historical_preflight_copied_as_evidence_only": false
+    },
+    "original_evaluation": {
+      "phase": "original-evaluation",
+      "mode": "cached",
+      "fixed_recipe": true,
+      "expected_origin_records": 39,
+      "new_model_variants": 0,
+      "adapter_failure_policy": "explicit-numerical-failures-only-v1",
+      "status": "passed",
+      "completed_at_utc": "2026-11-15T17:53:46.642687+00:00",
+      "maximum_prediction_difference": 0.0,
+      "daily_predictions": 1092,
+      "prediction_calls_forbidden": true,
+      "historical_preflight_copied_as_evidence_only": true
+    },
+    "retrospective_followup": {
+      "phase": "retrospective-followup",
+      "mode": "cached",
+      "fixed_recipe": true,
+      "expected_origin_records": 288,
+      "new_model_variants": 0,
+      "adapter_failure_policy": "explicit-numerical-failures-only-v1",
+      "status": "passed",
+      "completed_at_utc": "2026-11-15T17:53:46.247715+00:00",
+      "maximum_prediction_difference": 0.0,
+      "daily_predictions": 8064,
+      "prediction_calls_forbidden": true,
+      "historical_preflight_copied_as_evidence_only": false
+    }
+  },
+  "saved_parameter_and_label_reconstruction": {
+    "status": "passed",
+    "development": {
+      "status": "passed",
+      "fit_records_verified": 324,
+      "daily_predictions_verified": 9072,
+      "scored_tuning_origins": 12,
+      "scored_selection_origins": 12,
+      "final_predictions": 0,
+      "final_performance_rows": 0,
+      "common_scale_verified": true,
+      "calibration_n": 336,
+      "calibration_rank": 270,
+      "latest_scored_date": "2025-10-04"
+    },
+    "original_evaluation": {
+      "status": "passed",
+      "procedure_origin_records": 39,
+      "daily_forecasts": 1092,
+      "primary_days_per_procedure": 364,
+      "sensitivity_days_per_procedure": 335,
+      "sensitivity_paths": 12,
+      "partial_sensitivity_path": "final_02: 27 days; final_01 contributes zero days",
+      "metric_reconciliation": "Independent NumPy arithmetic, baseline reconstruction, historical MASE pairs, all interval bounds and paired differences",
+      "saved_parameter_sarimax_reconstructions": 13,
+      "maximum_sarimax_reconstruction_difference": 6.59383658785373e-12,
+      "fallbacks": 0,
+      "recorded_python_warnings": 0,
+      "final_tuning_or_interval_recalibration": false
+    },
+    "retrospective_followup": {
+      "status": "passed",
+      "records_verified": 288,
+      "daily_predictions_verified": 8064,
+      "saved_parameter_replays": 144,
+      "maximum_replay_difference": 1.2278178473934531e-11,
+      "matched_ml_pairs_verified": 36,
+      "raw_lgbm_original_control_shared_days": 644,
+      "maximum_raw_lgbm_control_difference": 0.0,
+      "metric_population_rows": 40,
+      "selection_paths": 7,
+      "calibration_days": 112,
+      "fallbacks": 0,
+      "recorded_python_warnings": 13,
+      "fresh_future_paths_evaluated": 0,
+      "new_optimizer_fits_in_verifier": 0
+    },
+    "new_optimizer_fits": 0,
+    "historical_reports_written": false
+  },
+  "new_optimizer_fits": 0
+}

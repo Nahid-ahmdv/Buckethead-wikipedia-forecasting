@@ -1,0 +1,19 @@
+{
+  "status": "frozen before any Phase 4 fits",
+  "frozen_at_utc": "2026-11-05T15:59:50.518679+00:00",
+  "real_candidate_fits": 0,
+  "synthetic_fits": 0,
+  "candidates": 6,
+  "baselines": 2,
+  "scheduled_paths": 37,
+  "protected_files": 539,
+  "files": {
+    "PROTOCOL.md": "9e9b30ca2da2952088d457cfe466792f9c401018ff10d359f003ea126a13f153",
+    "requirements.txt": "ff5f808651a176723f5c68bfa749c10f86aa655383723f62099e7645b2fa4719",
+    "candidates.json": "f67ceccdea714969ae97427bce7beb4f7af498aad2726957b613871bed83d718",
+    "schedule.csv": "380fa31192e0af42fb127e9884a3e4b2258fae3e56bc68000275b1ae1390b577",
+    "protected_snapshot.json": "8bfef823551f907eb3066508f62126ab4ea8d85eb778d9cd490856d04bb4f04a",
+    "freeze_protocol.py": "28a06352c84aa6e6796b9e752aa5f936e71937148a23b17dac0d27e2a5031b03"
+  },
+  "limitations": "Post-evaluation historical research; local integrity freeze, not external preregistration or renewed analyst blindness."
+}

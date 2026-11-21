@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-11-06T13:21:28.126184+00:00",
+  "delivery_version": "github-delivery-v2-public-only",
+  "delivery_manifest_sha256": "322a6b2f684504e59f298c85c0f69ac32a721513e659c154e6cd583ea2eab818",
+  "notebook_sha256": "bdb4972e9c3ee5e514cc9f59572f7dfa7f77c49e1d5f1370b1bb5b80c8a25c16",
+  "ignored_article_files_retained_locally": true,
+  "article_text_unchanged": true,
+  "private_article_paths_in_git_file_list": 0,
+  "private_article_previously_tracked": false,
+  "public_checkout_requires_article_files": false,
+  "public_checkout_sequential_code_cells": 23,
+  "scientific_figures_preserved": 9,
+  "unit_tests_passed": 5,
+  "complete_cached_recipe_replays_passed": 3,
+  "maximum_cache_replay_prediction_difference": 0.0,
+  "unchanged_scientific_source_and_result_files": 747,
+  "required_public_files": 825,
+  "mapped_public_source_artifacts": 799,
+  "scientific_checks": {
+    "cached_origin_records_verified": 651,
+    "daily_predictions_verified": 18228,
+    "summary_rows_recomputed": 73,
+    "delayed_baseline_paths_reconstructed": 72,
+    "original_overprediction_days": 326,
+    "original_mean_signed_error": 361.9069008671787,
+    "correction_improvement_percent": 0.9212871012803658,
+    "masked_improvement_percent": 0.0568609563653788,
+    "original_intervals": {
+      "days": 364,
+      "coverage": 0.4478021978021978,
+      "mean_width": 816.5730570913839,
+      "below": 190,
+      "above": 11,
+      "interval_score80": 1867.1894224571377
+    },
+    "phase4_intervals": {
+      "days": 364,
+      "coverage": 0.9587912087912088,
+      "mean_width": 1142.875,
+      "below": 2,
+      "above": 13,
+      "interval_score80": 1252.9505494505495
+    }
+  },
+  "new_optimizer_fits": 0,
+  "historical_delivery_v1_manifest_unchanged": true,
+  "evidence_sha256": {
+    "public_only_development_cached.json": "0254b9a577abeae90eb1659b325ffceec59ebc0c68980618ad25eea1ce2a954f",
+    "public_only_execution.json": "301acc4686a60740240db939c275b246abcd174dc55631217f8c6c579770519d",
+    "public_only_git_filter.json": "ea9b2fad9394815d20125f8ed7f8609e246eb54eaa5c132c70155fe75476a7e5",
+    "public_only_notebook_refresh.json": "f3d80c929b4fc1364a7323843b7d8bc3669ed9c449433c49a292d74bf49684f4",
+    "public_only_original-evaluation_cached.json": "65f71bc9fa56225c44a061e70c43445458a403c2e5be513b3ccfaecc048d3ed9",
+    "public_only_retrospective-followup_cached.json": "7718736012554362ab8fe2e0d82592f83da6b0db3b99deb55ed55a0e484a6501",
+    "public_only_tests.log": "022a6b370b6feff87d980c61dfbeef10d91afd53d21031b2f805d6c66c3e6019",
+    "public_only_verification.json": "68a1a30293eb57728473adcd5f25c135c67fd4dc7349c0a5e2f355ab9e45ec8e"
+  }
+}

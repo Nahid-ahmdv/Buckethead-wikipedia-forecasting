@@ -1,0 +1,58 @@
+{
+  "authority": "User Phase 2 brief: preflight then execute if passed",
+  "preflight_passed": true,
+  "locked_at_utc": "2026-11-05T14:21:36.837543+00:00",
+  "locked_sources": {
+    "phase2/final_experiment.py": "cba0c5c5436e4d679852c6eac2b47d7cc79c5321086dd031db2e1c7e30746f3f",
+    "phase2/preflight.py": "ec8b070189590eb3116934b3854ee5572a57010d0ec6722b088a28f8229ca02c",
+    "phase2/tests/test_final_contract.py": "cd527e3468a901120befa03bbc8d88610cbbf27118705540c0b0719a08c03582",
+    "phase1/src/forecasting.py": "3419bffd7fb60cc7bdb41ecde6ef2b47ab197acd0085577bb5bbcb79cef71027",
+    "phase1/FINAL_EVALUATION_SPEC.md": "f48aa12d62764425af492689eea6e0acbdc806c676d91e80abbfa007f22276c0",
+    "phase1/results/proposed_final_configuration.json": "5179e34b82098c07ae59db82d3d44f9f63135d5b91c6ae2486c2b2db989f6677",
+    "protocol/split_schedule.csv": "bdfd215551fbb14d9ba05ff9d68b794f68ba2a76b1eff24e87145a8ce45c978d",
+    "protocol/freeze_manifest.json": "3c712c9ef70e52b013b9fe1ca0ae7cad935aa254c55fb0c379ac0be95e38240d",
+    "phase1/freeze_manifest.json": "72962e25ca533b3f95e910d9b2700a158568bf33a2c93e9cd723bc13eb3e6f62"
+  },
+  "preflight_sha256": "e96f926bdaef1fb5e32089616ee20243792ef25ff2c092eb6a73a8b3b63d7c6b",
+  "procedures": [
+    {
+      "family": "sarimax",
+      "window": "three_years",
+      "params": {
+        "order": [
+          1,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "family": "weekday_mean",
+      "window": "fixed",
+      "params": {
+        "weeks": 8
+      }
+    },
+    {
+      "family": "weekly_naive",
+      "window": "fixed",
+      "params": {}
+    }
+  ],
+  "interval": {
+    "nominal_coverage": 0.8,
+    "method": "fixed pooled absolute-error order statistic",
+    "n": 336,
+    "rank": 270,
+    "half_width": 408.2865285456919,
+    "calibration_first": "2024-11-03",
+    "calibration_last": "2025-10-04",
+    "selection_reuse_disclosed": true
+  },
+  "final_paths": 13,
+  "primary_days": 364,
+  "sensitivity_days": 335,
+  "final_actuals_loaded_before_lock": false,
+  "procedure_changed": false,
+  "limitations": "Local execution record, not external preregistration or proof of analyst blindness; frozen retrieved history, not historical-as-of data."
+}

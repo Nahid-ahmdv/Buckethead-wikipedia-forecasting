@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-11-21T02:07:06.206907+00:00",
+  "scope": "README quick links only: executed notebook and an unpublished TDS article placeholder.",
+  "parent_manifest_sha256": "72bc811df66909c945cb0eb4fdce18ff1701bd42c68ddfe2cd96223233c47897",
+  "manifest_sha256": "e8be6b371c90cf91092bc56c3963272a8272ad1fca291ff92b25b55df6898d9f",
+  "readme_before_sha256": "089c5b4b049601d7072ec2206cc77bd350ebc187cdaa41537105674a60333798",
+  "readme_after_sha256": "ff27441945ce867521cc91eb9a0a1117e785accbe144df90499d429b8efef5db",
+  "validation": "Local README link targets exist; both requested entries occur once.",
+  "notebook_changed": false,
+  "experiments_run": false
+}

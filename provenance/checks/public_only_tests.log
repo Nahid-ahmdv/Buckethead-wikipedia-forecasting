@@ -1,0 +1,10 @@
+test_guard_rejects_missing_and_changed_artifacts (test_delivery.DeliveryTests) ... ok
+test_mathematical_helpers_preserved (test_delivery.DeliveryTests) ... ok
+test_original_source_contracts_and_mature_training_labels (test_delivery.DeliveryTests) ... ok
+test_single_notebook_rule (test_delivery.DeliveryTests) ... ok
+test_weekday_baseline_ignores_unavailable_and_future_values (test_delivery.DeliveryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.498s
+
+OK

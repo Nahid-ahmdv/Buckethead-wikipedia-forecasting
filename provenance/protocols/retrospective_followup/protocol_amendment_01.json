@@ -1,0 +1,24 @@
+{
+  "frozen_at_utc": "2026-11-05T16:07:32.143478+00:00",
+  "reason": "One-day label-availability conflict caught in preflight",
+  "real_candidate_fits_before_amendment": 0,
+  "new_candidate_scores_examined": false,
+  "active_protocol": "PROTOCOL_V2.md",
+  "active_schedule": "schedule_v2.csv",
+  "files": {
+    "PROTOCOL_V2.md": "76efd5ead199f45d2db3f18e4b9fb3a66a249ed006e3f2c1dedd2f0023288d53",
+    "schedule_v2.csv": "c895e219380781daebce755634aad9eb95d43e58ebfba1c32c88bedee63a6122",
+    "AMENDMENT_01.md": "92c27f7b6c5f03461377d9346fe35669a608eb4a0201ca11d2260ac6b130c9d5",
+    "engine.py": "c9fa5c75ed8e8b2f2695fd8bbb72a26e6108308fd20e2b92fcdf5d925f9025e3",
+    "run_experiment.py": "e367882764cf621cd7de75437a6edbfdfb5a9fc1c402bea7248d545728692c01",
+    "tests.py": "ca0f7bbcff1ff9908aa4722248e6fb6277b1796a27bdf59b7eb327f95a8c4f6c",
+    "preflight.py": "7ae09b92a3019e1cb1765276fc4c735cad7a573e22e4c234354191dc6a1576f8",
+    "amend_protocol_01.py": "96b03fab112c1d5392fd27af50858f788d6c559f61269829b101b35e9d327c56",
+    "amendments/01_preflight_record/failed_tests.log": "42cc2b2b247ad49d54b2aa0ad4883d385b3fea743c503692d823d5d1973731f8",
+    "amendments/01_preflight_record/failed_preflight.log": "c2e652a6f2cc3ef1cbd83ab3f64a2019e5315e7b68af597158b619c0b9c6a5b5",
+    "amendments/01_preflight_record/engine.py": "04cb678045171408d9d994dfc648a7713c0abccb4e5bd3c330b64b5017048063",
+    "amendments/01_preflight_record/tests.py": "7bb87bf96125254e91c6f9705ffc70c77fa9df98981b0691b8b3e454f7b06a06",
+    "amendments/01_preflight_record/run_experiment.py": "2ec7e035db387c8cf692689046673cbd1af6f01ff0ce7959b41bbd0f76f110be",
+    "amendments/01_preflight_record/preflight.py": "aa50a3177de66188598b59a39a1af68bd3ecb1ac2a09668ba538120968cf109a"
+  }
+}

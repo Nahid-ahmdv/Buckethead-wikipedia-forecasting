@@ -1,0 +1,40 @@
+{
+  "figures": {
+    "figures/foundation_models/01_point_comparison.png": {
+      "sha256": "6df973d040a93eee7f22d912c8d93aea101e615f55f97bfc7e984daf51b78762",
+      "sources": {
+        "results/foundation_models/forecasts.csv": "addf5a6c2137cf40c095b822e975e9e6743e22ad5b6aca1b1f943cd6f4412a64",
+        "results/foundation_models/comparison.csv": "a90c3bdb87c3d2a5464d1a37d24092985e16eacfa2b919b0f3138bd390f5cf38",
+        "results/foundation_models/paired_paths.csv": "2860839aa73c4a4f19f8825596fd3c3f0ba594d17dd272a22673ecb6e3483487",
+        "results/foundation_models/interval_metrics.csv": "85ec0803e8fd1b671d88df7b876720f8c7ae52c17fa6c5bd33f1f77923893ea7"
+      }
+    },
+    "figures/foundation_models/02_paired_and_horizon.png": {
+      "sha256": "786237fa1915a831e898be285fe291534c8efac8a7d50a0d3dacebad64916d62",
+      "sources": {
+        "results/foundation_models/forecasts.csv": "addf5a6c2137cf40c095b822e975e9e6743e22ad5b6aca1b1f943cd6f4412a64",
+        "results/foundation_models/comparison.csv": "a90c3bdb87c3d2a5464d1a37d24092985e16eacfa2b919b0f3138bd390f5cf38",
+        "results/foundation_models/paired_paths.csv": "2860839aa73c4a4f19f8825596fd3c3f0ba594d17dd272a22673ecb6e3483487",
+        "results/foundation_models/interval_metrics.csv": "85ec0803e8fd1b671d88df7b876720f8c7ae52c17fa6c5bd33f1f77923893ea7"
+      }
+    },
+    "figures/foundation_models/03_native_intervals.png": {
+      "sha256": "0947a8bf06b87fde5067a80ef5532a541854e441e98eaad981d1ed7274d462ca",
+      "sources": {
+        "results/foundation_models/forecasts.csv": "addf5a6c2137cf40c095b822e975e9e6743e22ad5b6aca1b1f943cd6f4412a64",
+        "results/foundation_models/comparison.csv": "a90c3bdb87c3d2a5464d1a37d24092985e16eacfa2b919b0f3138bd390f5cf38",
+        "results/foundation_models/paired_paths.csv": "2860839aa73c4a4f19f8825596fd3c3f0ba594d17dd272a22673ecb6e3483487",
+        "results/foundation_models/interval_metrics.csv": "85ec0803e8fd1b671d88df7b876720f8c7ae52c17fa6c5bd33f1f77923893ea7"
+      }
+    },
+    "figures/foundation_models/04_first_three_paths.png": {
+      "sha256": "ecf4efea6d31964eadbbe54dfce3bfb421b30f2f9fb1d8b29052aa186018538e",
+      "sources": {
+        "results/foundation_models/forecasts.csv": "addf5a6c2137cf40c095b822e975e9e6743e22ad5b6aca1b1f943cd6f4412a64",
+        "results/foundation_models/comparison.csv": "a90c3bdb87c3d2a5464d1a37d24092985e16eacfa2b919b0f3138bd390f5cf38",
+        "results/foundation_models/paired_paths.csv": "2860839aa73c4a4f19f8825596fd3c3f0ba594d17dd272a22673ecb6e3483487",
+        "results/foundation_models/interval_metrics.csv": "85ec0803e8fd1b671d88df7b876720f8c7ae52c17fa6c5bd33f1f77923893ea7"
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "ets_level",
+    "family": "ets",
+    "window": "three_years",
+    "params": {
+      "trend": false,
+      "damped": false
+    }
+  },
+  {
+    "id": "ets_damped",
+    "family": "ets",
+    "window": "three_years",
+    "params": {
+      "trend": true,
+      "damped": true
+    }
+  },
+  {
+    "id": "sarimax_d0",
+    "family": "sarimax",
+    "window": "three_years",
+    "params": {
+      "D": 0
+    }
+  },
+  {
+    "id": "sarimax_d1",
+    "family": "sarimax",
+    "window": "three_years",
+    "params": {
+      "D": 1
+    }
+  },
+  {
+    "id": "lgbm_raw",
+    "family": "lightgbm",
+    "window": "expanding",
+    "params": {
+      "correction": false
+    }
+  },
+  {
+    "id": "lgbm_correction",
+    "family": "lightgbm",
+    "window": "expanding",
+    "params": {
+      "correction": true
+    }
+  },
+  {
+    "id": "weekday_mean",
+    "family": "baseline",
+    "window": "56_days",
+    "params": {}
+  },
+  {
+    "id": "weekly_naive",
+    "family": "baseline",
+    "window": "7_days",
+    "params": {}
+  }
+]

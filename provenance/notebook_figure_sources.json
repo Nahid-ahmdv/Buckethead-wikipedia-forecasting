@@ -1,0 +1,20 @@
+{
+  "scope": "Sources for the two figures shared with the scientific notebook; no article dependency",
+  "figures": [
+    {
+      "file": "figures/retrospective_followup/04_correction_paired_paths.png",
+      "source_sha256": {
+        "results/retrospective_followup/forecasts.csv": "32f58c356f9444cb4100a5d25dfbdac162214af39d454cfbd9e3bc83fc18a768",
+        "results/retrospective_followup/paired_differences.csv": "b4a8974d0c55e3ea249d5d4651daae98203c1e6a0717bddb1304ec03dc358fb7"
+      }
+    },
+    {
+      "file": "figures/retrospective_followup/05_interval_diagnostics.png",
+      "source_sha256": {
+        "results/original_evaluation/final_forecasts.csv": "bafe88c2d7160d8a640594f6e6ff276712362404a9695a5d12f3f889a39201b2",
+        "results/retrospective_followup/interval_calibration.json": "5f85dbccf3591b23fd1f04d9a6257b74ccd46e72997cf66bd3edbda6f8e585a9",
+        "results/retrospective_followup/interval_metrics.csv": "c95bb04ae029822ad9ad1e14b2ce8837013a18772dbb7f8d9e2d8cf86e1ed6eb"
+      }
+    }
+  ]
+}

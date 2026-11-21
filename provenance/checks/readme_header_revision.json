@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-11-21T02:10:40.625154+00:00",
+  "scope": "Embed the existing user-supplied photo immediately after the README heading.",
+  "parent_manifest_sha256": "e8be6b371c90cf91092bc56c3963272a8272ad1fca291ff92b25b55df6898d9f",
+  "manifest_sha256": "3e430c7c2b3620af728ef7da1eaebbe61f45b430147cecf2611dfb0a1f298fc2",
+  "readme_before_sha256": "ff27441945ce867521cc91eb9a0a1117e785accbe144df90499d429b8efef5db",
+  "readme_after_sha256": "f606c8be0b1b142daf0fdc0d6e8b57a05a8530d5e7dded3d24e216903c2491f9",
+  "image_path": "figures/Buckethead.jpg",
+  "image_sha256": "b04f5a655f031ce36ec8481cfc1d892947b4a734c7f0cc447a906589a18d41be",
+  "image_modified": false,
+  "validation": "Relative image target and all local README link targets exist.",
+  "notebook_changed": false,
+  "experiments_run": false
+}

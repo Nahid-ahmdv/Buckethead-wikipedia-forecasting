@@ -1,0 +1,13 @@
+{
+  "phase": "retrospective-followup",
+  "mode": "cached",
+  "fixed_recipe": true,
+  "expected_origin_records": 288,
+  "new_model_variants": 0,
+  "status": "passed",
+  "completed_at_utc": "2026-11-06T13:20:23.019208+00:00",
+  "maximum_prediction_difference": 0.0,
+  "daily_predictions": 8064,
+  "prediction_calls_forbidden": true,
+  "historical_preflight_copied_as_evidence_only": false
+}

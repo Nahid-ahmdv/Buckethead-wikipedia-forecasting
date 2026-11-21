@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "python_version": "3.10.18",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "locked_packages_checked": 64,
+  "environment": "Previously created independent pinned environment; reused for packaging checks",
+  "fresh_environment_installed_during_packaging": false,
+  "cross_platform_equivalence_tested": false
+}

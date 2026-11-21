@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "files_compared": 1091,
+  "changed_files": [],
+  "added_files": [],
+  "removed_files": [],
+  "source_notebook_sha256": "3527c4328536268ef0857010087ae239d656ef95981463be2464f408b8cabdcc",
+  "snapshot_sha256": "0e16b28f0ed0106b81003600525d92f81f235b0525f1e4132b67baee2d66e1d3",
+  "scope": "All original files except environments, bytecode and notebook checkpoints; no original files edited",
+  "original_core_integrity": {
+    "status": "passed",
+    "unchanged_pre_consolidation_files_verified": 934,
+    "current_publication_files_verified": 141,
+    "notebooks": [
+      "buckethead_wikipedia_forecasting.ipynb"
+    ],
+    "intentional_removals_checked": 3,
+    "historical_hashes_rewritten": false
+  },
+  "older_presentation_verifier": {
+    "status": "fails_on_preexisting_finder_metadata_mismatch",
+    "path": ".DS_Store",
+    "task_start_and_end_sha256": "1fb526907fcd89834c0363a59734e1df251b3f94f508b9d631d12feea6939b69",
+    "writing_voice_baseline_sha256": "d55ad9eceeb0ef0ef193ce470ca8d84b245e7cd97a40cb3bd032a7b5b2ca55b8",
+    "changed_during_packaging": false,
+    "left_untouched": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "executed_at_utc": "2026-11-06T13:20:14.721417+00:00",
+  "python_version": "3.10.18",
+  "code_cells": 23,
+  "sequential_execution": true,
+  "errors": 0,
+  "embedded_figures": 9,
+  "new_optimizer_fits": 0,
+  "notebook_overwritten": false,
+  "notebook_sha256": "bdb4972e9c3ee5e514cc9f59572f7dfa7f77c49e1d5f1370b1bb5b80c8a25c16",
+  "scope": "Saved-artifact execution; full optimizer fitting was not rerun",
+  "private_article_files_present": false
+}

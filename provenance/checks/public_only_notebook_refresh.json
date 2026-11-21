@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "executed_at_utc": "2026-11-06T13:18:48.535743+00:00",
+  "code_cells": 23,
+  "errors": 0,
+  "figures": 9,
+  "new_optimizer_fits": 0,
+  "scientific_outputs_byte_identical_cell_positions": [
+    3,
+    5,
+    6,
+    8,
+    10,
+    13,
+    16,
+    18,
+    20,
+    22,
+    24,
+    28,
+    30,
+    32,
+    34,
+    37,
+    39,
+    41,
+    43,
+    45
+  ],
+  "updated_delivery_status_or_path_message_cell_positions": [
+    2,
+    26,
+    48
+  ],
+  "notebook_sha256": "bdb4972e9c3ee5e514cc9f59572f7dfa7f77c49e1d5f1370b1bb5b80c8a25c16",
+  "scope": "One-time delivery output refresh; research notebook unchanged"
+}

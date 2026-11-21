@@ -1,0 +1,77 @@
+{
+  "version": "github-delivery-v3-review-corrections",
+  "date": "2026-11-15",
+  "parent_manifest": "provenance/historical/github_delivery_v2_manifest.json",
+  "parent_manifest_sha256": "322a6b2f684504e59f298c85c0f69ac32a721513e659c154e6cd583ea2eab818",
+  "parent_notebook_sha256": "bdb4972e9c3ee5e514cc9f59572f7dfa7f77c49e1d5f1370b1bb5b80c8a25c16",
+  "notebook_sha256": "e7909e0566d7b789692c6859a421dbb03e12fe44808bef0720f2e24dbd4d4178",
+  "corrections": [
+    {
+      "item": 1,
+      "change": "Disclose four/eight-week baseline tuning and the selection of eight weeks before procedure selection."
+    },
+    {
+      "item": 2,
+      "change": "Distinguish 228 tuning evaluations (192 model fits + 36 baseline paths) and 96 selection evaluations (72 model fits + 24 baseline paths)."
+    },
+    {
+      "item": 3,
+      "change": "Add exact feature-builder and resolved selected-SARIMAX Markdown excerpts; preserve all 23 executable cell sources."
+    },
+    {
+      "item": 4,
+      "change": "Reject unexpected historical fallback outcomes at the current execution adapter; preserve explicit numerical fallbacks and all archived source bytes."
+    }
+  ],
+  "adapter_failure_policy": "explicit-numerical-failures-only-v1",
+  "historical_engines_changed": false,
+  "archived_model_settings_changed": false,
+  "source_map_changed": false,
+  "data_forecasts_tables_and_figures_changed": false,
+  "protected_scientific_files_verified": 771,
+  "optimizer_fits": 0,
+  "new_forecasting_experiments": 0,
+  "code_cells_added": 0,
+  "original_code_cells_changed": 0,
+  "reader_execution": {
+    "code_cells": 23,
+    "errors": 0,
+    "optimizer_fits": 0,
+    "scientific_outputs_unchanged": true,
+    "presentation_output_cells_refreshed": [
+      2
+    ],
+    "embedded_figures": 9
+  },
+  "tests": {
+    "test_methods": 8,
+    "scope": "Existing delivery checks plus injected failures and success/cleanup checks across development, original-evaluation and retrospective runners; no model fitting."
+  },
+  "changed_delivery_files": {
+    "buckethead_wikipedia_forecasting.ipynb": {
+      "before_sha256": "bdb4972e9c3ee5e514cc9f59572f7dfa7f77c49e1d5f1370b1bb5b80c8a25c16",
+      "after_sha256": "e7909e0566d7b789692c6859a421dbb03e12fe44808bef0720f2e24dbd4d4178"
+    },
+    "tests/test_delivery.py": {
+      "before_sha256": "a309ac4de1d77183c9a39680d1aa31fbd76d99c5626e31019b17ff6fbf67d145",
+      "after_sha256": "296c8ac0ec972883f2c529da0d2289af24f97dd29b7152ebc1f1e9e2eb3c51e4"
+    },
+    "docs/reproducibility.md": {
+      "before_sha256": "b11199e1d1cdbce509e9536ede225b89ab2c8cc688e8c648c852c6a18aa01868",
+      "after_sha256": "2eb729b33f114e9a74c73a674d80e4b6a70f0dda80182a56797faa182ed64fb1"
+    },
+    "scripts/reproduce.py": {
+      "before_sha256": "0497094408be033078acda101a2a400a5cd8b3519d68c7c7b86f6cd00c5b689f",
+      "after_sha256": "a64332b49de8fe608b1efac6676350aac86fe8cb83a6d4d20847480c18458d86"
+    },
+    "src/research_adapter.py": {
+      "before_sha256": "c096bec8475edc1b0862db593d166ad8dc873df1a1c185ace519804981953c76",
+      "after_sha256": "852dc9b1817b804993cbc647ccc7f7213fc32f717b525d4d73fd956d0cfcdefe"
+    },
+    "src/research/README.md": {
+      "before_sha256": "4c0626ca68f3a9250ecf2912349c10e452736a70e11ae2901433cf18c4c9ce9b",
+      "after_sha256": "aa6fcb6dd2b852958b040a0f79d863ead866ced86a150545bfa15a9bb38f9e6a"
+    }
+  },
+  "verification_evidence": "provenance/checks/review_corrections.json"
+}

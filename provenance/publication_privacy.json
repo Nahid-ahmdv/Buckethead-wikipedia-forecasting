@@ -1,0 +1,16 @@
+{
+  "purpose": "Keep private TDS article files out of Git without removing notebook inputs",
+  "parent_manifest": "provenance/historical/github_delivery_v1_manifest.json",
+  "parent_manifest_sha256": "5e162b33be5eb59dd6f0624d28e6143cc23dc1acdf41a73192b02bb4fa6467a4",
+  "previous_delivery_notebook_sha256": "3db8ee5328670931e9d6f892552c1ea3a76f34b88044b4db510d3fb57d3325ed",
+  "article_files_deleted": false,
+  "scientific_predictions_or_metrics_changed": false,
+  "new_experiments": 0,
+  "shared_figures_copied_without_content_changes": [
+    "04_correction_paired_paths.png",
+    "05_interval_diagnostics.png"
+  ],
+  "private_source_artifacts_removed_from_required_map": 11,
+  "public_source_artifacts": 799,
+  "default_verification_requires_private_article": false
+}

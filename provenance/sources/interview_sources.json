@@ -1,0 +1,103 @@
+{
+  "checked_on": "2026-11-06",
+  "scope": "Stage 3 retrospective interpretation; no event-ledger changes or availability upgrades",
+  "sources": [
+    {
+      "id": "P1",
+      "url": "https://bucketheadpikes.com/index2.html",
+      "kind": "Artist site",
+      "verified": "Catalog identifies numbered Pikes, including Pike #3, and distinguishes previews.",
+      "limit": "Highest displayed number is not treated as a completed-release count."
+    },
+    {
+      "id": "P2",
+      "url": "https://bucketheadpikes.bandcamp.com/album/its-alive-2",
+      "kind": "Artist release metadata",
+      "verified": "It's Alive: listed May 15, 2011, eight tracks, listed lengths sum to 30:57.",
+      "limit": "Series-start/number context is corroborated by the career/discography overview; listener comments are not adopted as artist claims."
+    },
+    {
+      "id": "P3",
+      "url": "https://en.wikipedia.org/wiki/Buckethead",
+      "kind": "Secondary career overview; also the target article",
+      "verified": "Places the numbered Pikes series in 2011 and within a wider solo/collaborative career; describes usual half-hour format.",
+      "limit": "No current career/Pike totals or causal traffic claims adopted."
+    },
+    {
+      "id": "R1",
+      "url": "https://bucketheadpikes.bandcamp.com/album/dreams-remembered",
+      "kind": "Artist release metadata, unchanged ledger E12",
+      "verified": "Listed July 5, 2022; one 27:54 track.",
+      "limit": "Current edition metadata, not independently dated advance notice."
+    },
+    {
+      "id": "R2",
+      "url": "https://bucketheadpikes.bandcamp.com/album/sea-above-the-sky",
+      "kind": "Artist release metadata, unchanged ledger E16",
+      "verified": "Listed January 27, 2024.",
+      "limit": "Current edition metadata, not announcement or recording time."
+    },
+    {
+      "id": "I1",
+      "url": "https://www.thetoolsbook.com/blog/a-conversation-with-buckethead",
+      "kind": "Primary podcast publisher",
+      "verified": "Identifies Barry Michels' Coming Alive conversation and subject matter.",
+      "metadata": {
+        "datePublished": "2022-08-25T21:45:51-0700",
+        "dateModified": "2022-11-09T13:10:44-0800"
+      },
+      "method": "Readable page plus HTML metadata inspected with urllib; no original RSS timestamp found.",
+      "limit": "Current publisher page date is later than the 2017 conversation; recording date remains unverified."
+    },
+    {
+      "id": "I2",
+      "url": "https://www.listennotes.com/podcasts/coming-alive/a-conversation-with-buckethead-9jrG3mSnNuR/",
+      "kind": "Secondary episode-directory metadata",
+      "listed_episode_date": "2017-10-10",
+      "verified": "Directory lists the episode on October 10, 2017, duration 57:54.",
+      "limit": "Listed metadata are not primary recovery of original RSS or recording date. The feed/audio link did not establish a recoverable original timestamp."
+    },
+    {
+      "id": "I3",
+      "url": "https://loudwire.com/buckethead-life-threatening-heart-condition/",
+      "kind": "Contemporary music reporting",
+      "publication_date": "2017-10-12",
+      "verified": "Displayed publication date; links to Alternative Nation.",
+      "limit": "Dates coverage only; calendar precision and no referral/intraday evidence."
+    },
+    {
+      "id": "I4",
+      "url": "https://www.alternativenation.net/guns-n-roses-member-has-life-threatening-heart-condition-scares-me/",
+      "kind": "Contemporary music reporting",
+      "publication_date": "2017-10-12",
+      "verified": "Dated same calendar day; discusses the podcast.",
+      "limit": "Exact ordering between outlets not established; no medical-status inference for today."
+    },
+    {
+      "id": "I5",
+      "url": "https://www.loudersound.com/news/buckethead-diagnosed-with-heart-condition",
+      "kind": "Contemporary music reporting",
+      "publication_date": "2017-10-13",
+      "verified": "Displayed publication date provides a next-day coverage marker.",
+      "limit": "No claim this outlet caused visits."
+    }
+  ],
+  "chronology": {
+    "recording_date": "unverified",
+    "original_RSS_timestamp": "not recovered",
+    "directory_date": "2017-10-10",
+    "documented_public_by": "2017-10-12",
+    "coverage_markers": [
+      "2017-10-12",
+      "2017-10-13"
+    ],
+    "current_publisher_page_date": "2022-08-25",
+    "current_page_date_plotted_as_original_event": false
+  },
+  "search_limits": [
+    "The original publisher page and directory listing were inspected for an original feed/timestamp; the RSS date was not recovered.",
+    "Initial short artist URLs did not resolve; the readable official It's Alive page is /album/its-alive-2.",
+    "Fan transcripts and forum references were discovery aids, not authorities for recording time, clinical status or album totals."
+  ],
+  "copyright": "No interview transcript, recording, press photograph or album cover is reproduced. Source summaries are factual and scoped."
+}

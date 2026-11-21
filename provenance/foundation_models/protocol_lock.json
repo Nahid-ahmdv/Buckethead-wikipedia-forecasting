@@ -1,0 +1,18 @@
+{
+  "frozen_at_utc": "2026-11-18T09:03:50.836374+00:00",
+  "scope": "Fixed recipe and input bytes before inference",
+  "files": {
+    "provenance/foundation_models/protocol.json": "8f1da97d722a5442ae9c3d23b2cb191f969809b4102c1e0c2a8ace1a5f47e5ea",
+    "src/foundation_analysis.py": "a8099fa6577605b6baf31ec69cf681f60f4855a1e4ce1041427ead5dc93cd33a",
+    "scripts/foundation_models.py": "e8a81489289a307f464307da6624a84eecebac4a107d2e1f331a57448754777b",
+    "tests/test_foundation.py": "1e939ed23e33ddc84bef5d39be1c4ed2131a9ef30939a1939652e2cf7ff43187",
+    "data/processed/buckethead_daily.csv": "24fd52457fd131725600428a3a1bbbb256dce882ecc5c29f406a93f75f14f14e",
+    "provenance/protocols/original/split_schedule.csv": "bdfd215551fbb14d9ba05ff9d68b794f68ba2a76b1eff24e87145a8ce45c978d",
+    "results/original_evaluation/final_forecasts.csv": "bafe88c2d7160d8a640594f6e6ff276712362404a9695a5d12f3f889a39201b2",
+    "results/retrospective_followup/forecasts.csv": "32f58c356f9444cb4100a5d25dfbdac162214af39d454cfbd9e3bc83fc18a768",
+    "provenance/foundation_models/chronos2_repository.json": "046c641f3ba1467b78acab9ef7cc82d01a14fe860fc0b54f7e4a87d5289b383d",
+    "provenance/foundation_models/timesfm25_repository.json": "2f607b761507e6943f7868a7bb0206d256949fcc46a8ffbbb0118d26959fd29e",
+    "provenance/foundation_models/chronos2_README.txt": "c7b29bc88f5bc3ebc6e7213b6353be80090d671fefa4aa74ed20498838c16558",
+    "provenance/foundation_models/timesfm25_README.txt": "4c3f16633a3d8b9324904bf004429aced2ee009b84e64effb59a902520cc7f2e"
+  }
+}
