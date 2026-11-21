@@ -1,0 +1,13 @@
+{
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/Buckethead/daily/2015070100/2026103100",
+  "user_agent": "BucketheadForecastResearch/0.1 (local educational research)",
+  "method": "GET",
+  "retrieved_at_utc": "2026-11-05T12:42:12.074169+00:00",
+  "timestamp_basis": "completion file modification time of successful initial curl download",
+  "status": 200,
+  "status_basis": "curl --fail exited successfully; HTTP headers preserved separately",
+  "headers_path": "data/raw/pageviews_all-access.headers",
+  "path": "data/raw/pageviews_all-access.json",
+  "sha256": "2eace6611eef498ec9bd09d3039bea735d8b53f8e6df1167aadf05dc87e98062",
+  "bytes": 608672
+}
