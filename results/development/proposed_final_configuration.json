@@ -1,0 +1,59 @@
+{
+  "status": "proposed final configuration; final evaluation not executed",
+  "selected_procedure_id": "sarimax__three_years__9e80a9f3",
+  "selected_specification": {
+    "family": "sarimax",
+    "window": "three_years",
+    "params": {
+      "order": [
+        1,
+        0,
+        1
+      ]
+    }
+  },
+  "selection_mae": 303.9845131016087,
+  "selection_rmse": 455.0738376022509,
+  "selection_mase": 0.7538540541713805,
+  "selection_paths": 12,
+  "selection_fallbacks": 0,
+  "baselines": [
+    {
+      "family": "weekday_mean",
+      "window": "fixed",
+      "params": {
+        "weeks": 8
+      }
+    },
+    {
+      "family": "weekly_naive",
+      "window": "fixed",
+      "params": {}
+    }
+  ],
+  "interval": {
+    "nominal_coverage": 0.8,
+    "method": "fixed pooled absolute-error order statistic",
+    "n": 336,
+    "rank": 270,
+    "half_width": 408.2865285456919,
+    "calibration_first": "2024-11-03",
+    "calibration_last": "2025-10-04",
+    "selection_reuse_disclosed": true
+  },
+  "event_features": false,
+  "event_reason": "Phase 0 gate failed; no event-ledger changes",
+  "final_schedule": {
+    "start": "2025-11-02",
+    "end": "2026-10-31",
+    "paths": 13,
+    "horizon": 28,
+    "observation_delay_days": 2,
+    "november_sensitivity_days": 335
+  },
+  "implementation_sha256": "e4e7a0eda67cfe800209a56fc8b4f7a10841e959abbb2231b5b4785a9520460e",
+  "forecast_results_sha256": "4b6cdd3753f52a19455c64c96919c6c0412260fdb96ba5a6548b1cda669e2a0d",
+  "final_outcomes_loaded": false,
+  "final_forecasts_computed": false,
+  "frozen_at_utc": "2026-11-05T13:33:56.164542+00:00"
+}

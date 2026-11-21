@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-11-05T16:07:42.630794+00:00",
+  "protected_files": 539,
+  "clean_environment_import_metadata_match": true,
+  "targeted_tests_passed": 16,
+  "six_synthetic_engines_executed": true,
+  "real_series_candidate_fits": 0,
+  "chronological_calibration_valid": true,
+  "candidate_count": 6,
+  "baseline_count": 2,
+  "planned_records": 288,
+  "planned_daily_predictions": 8064,
+  "methodological_blockers": [],
+  "protocol_departures": [
+    "AMENDMENT_01.md: corrected selection/calibration label availability before real fitting"
+  ]
+}

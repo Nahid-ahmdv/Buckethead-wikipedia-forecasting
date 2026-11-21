@@ -1,0 +1,47 @@
+{
+  "python": "3.10.18 | packaged by conda-forge | (main, Jun  4 2025, 14:46:00) [Clang 18.1.8 ]",
+  "executable": "/Users/nahidahmadvand/Projects/mlcourse_ai_Yorko/Topic9_Time_Series_Analysis_with_Python/buckethead-wikipedia-forecasting/phase4/.venv/bin/python",
+  "prefix": "/Users/nahidahmadvand/Projects/mlcourse_ai_Yorko/Topic9_Time_Series_Analysis_with_Python/buckethead-wikipedia-forecasting/phase4/.venv",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "modules": {
+    "numpy": {
+      "imported_version": "1.26.4",
+      "distribution_version": "1.26.4",
+      "path": "/Users/nahidahmadvand/Projects/mlcourse_ai_Yorko/Topic9_Time_Series_Analysis_with_Python/buckethead-wikipedia-forecasting/phase4/.venv/lib/python3.10/site-packages/numpy/__init__.py"
+    },
+    "pandas": {
+      "imported_version": "2.3.3",
+      "distribution_version": "2.3.3",
+      "path": "/Users/nahidahmadvand/Projects/mlcourse_ai_Yorko/Topic9_Time_Series_Analysis_with_Python/buckethead-wikipedia-forecasting/phase4/.venv/lib/python3.10/site-packages/pandas/__init__.py"
+    },
+    "scipy": {
+      "imported_version": "1.15.2",
+      "distribution_version": "1.15.2",
+      "path": "/Users/nahidahmadvand/Projects/mlcourse_ai_Yorko/Topic9_Time_Series_Analysis_with_Python/buckethead-wikipedia-forecasting/phase4/.venv/lib/python3.10/site-packages/scipy/__init__.py"
+    },
+    "statsmodels": {
+      "imported_version": "0.14.5",
+      "distribution_version": "0.14.5",
+      "path": "/Users/nahidahmadvand/Projects/mlcourse_ai_Yorko/Topic9_Time_Series_Analysis_with_Python/buckethead-wikipedia-forecasting/phase4/.venv/lib/python3.10/site-packages/statsmodels/__init__.py"
+    },
+    "lightgbm": {
+      "imported_version": "4.6.0",
+      "distribution_version": "4.6.0",
+      "path": "/Users/nahidahmadvand/Projects/mlcourse_ai_Yorko/Topic9_Time_Series_Analysis_with_Python/buckethead-wikipedia-forecasting/phase4/.venv/lib/python3.10/site-packages/lightgbm/__init__.py"
+    },
+    "sklearn": {
+      "imported_version": "1.7.2",
+      "distribution_version": "1.7.2",
+      "path": "/Users/nahidahmadvand/Projects/mlcourse_ai_Yorko/Topic9_Time_Series_Analysis_with_Python/buckethead-wikipedia-forecasting/phase4/.venv/lib/python3.10/site-packages/sklearn/__init__.py"
+    },
+    "matplotlib": {
+      "imported_version": "3.10.5",
+      "distribution_version": "3.10.5",
+      "path": "/Users/nahidahmadvand/Projects/mlcourse_ai_Yorko/Topic9_Time_Series_Analysis_with_Python/buckethead-wikipedia-forecasting/phase4/.venv/lib/python3.10/site-packages/matplotlib/__init__.py"
+    }
+  },
+  "native_threads": 1,
+  "installation": "Fresh uv-created isolated venv; all direct and transitive dependencies installed from public package wheels",
+  "scope": "Clean Python environment on the existing macOS system, not a clean operating-system/container image; native libomp may be system supplied",
+  "real_series_candidate_fits_before_lock": 0
+}

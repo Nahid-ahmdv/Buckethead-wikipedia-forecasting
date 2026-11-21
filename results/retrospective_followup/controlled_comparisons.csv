@@ -1,0 +1,11 @@
+stage,population,procedure,control,mae_difference,relative_mae_improvement_percent,paths,wins,median_path_mae_difference
+development,all,sarimax_d0,sarimax_d1,-31.68426640600194,6.646054204458629,12,9,-19.82115478603282
+development,all,lgbm_correction,lgbm_raw,21.273420286125372,-4.5550524451845265,12,5,1.120952777304936
+selection,all,sarimax_d0,sarimax_d1,-35.153251511726296,9.0781309054639,7,4,-22.094983010883368
+selection,all,lgbm_correction,lgbm_raw,5.614644277373998,-1.7300861316367877,7,3,3.3504439370502155
+calibration,all,sarimax_d0,sarimax_d1,-4.119822163075554,1.588996252040975,4,3,-3.98143439156793
+calibration,all,lgbm_correction,lgbm_raw,75.26948142408247,-23.519001049796294,4,0,53.71525832426806
+retrospective,all,sarimax_d0,sarimax_d1,86.386561387565,-23.631195860414778,13,5,41.51045634762903
+retrospective,all,lgbm_correction,lgbm_raw,-15.823166646900205,6.270162065777241,13,8,-25.88254286856673
+retrospective,exclude_november_2025,sarimax_d0,sarimax_d1,94.09231719782912,-25.279660420300274,12,4,59.68813254909469
+retrospective,exclude_november_2025,lgbm_correction,lgbm_raw,-13.983404570102437,5.709630159243129,12,7,-16.559226914451656

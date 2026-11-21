@@ -1,0 +1,68 @@
+{
+  "new_candidate_fits": 0,
+  "new_interval_variants": 0,
+  "mean_retrospective_actual": 1267.3626373626373,
+  "retrospective_mean_absolute_correction": 81.03829376147208,
+  "retrospective_mean_correction": -12.511944131377387,
+  "retrospective_days_correction_improves_baseline": 174,
+  "retrospective_days_correction_worsens_baseline": 190,
+  "original_control_replay": 0.0,
+  "numerical": {
+    "sarimax_d0": {
+      "minimum_ma_root_modulus": [
+        1.5453135773136384,
+        1.6039347887704607
+      ],
+      "minimum_ar_root_modulus": [
+        1.3350773600705839,
+        1.6837424284246472
+      ],
+      "ma.S.L7": [
+        0.03661786757222038,
+        0.04752079059685857
+      ]
+    },
+    "sarimax_d1": {
+      "minimum_ma_root_modulus": [
+        1.0000218473521303,
+        1.0059427193702648
+      ],
+      "minimum_ar_root_modulus": [
+        1.4502611129874001,
+        1.6430514966788756
+      ],
+      "ma.S.L7": [
+        -0.9998470818988009,
+        -0.9593724392220756
+      ]
+    },
+    "ets_level": {
+      "smoothing_level": [
+        0.26479725481783517,
+        0.289688735272322
+      ],
+      "smoothing_seasonal": [
+        7.103112647276781e-05,
+        7.352027451821648e-05
+      ]
+    },
+    "ets_damped": {
+      "smoothing_level": [
+        0.25849990757109825,
+        0.29014226067153465
+      ],
+      "smoothing_seasonal": [
+        7.098577393284653e-05,
+        7.415000924289017e-05
+      ],
+      "smoothing_trend": [
+        2.5849990757109826e-05,
+        2.9014226067153465e-05
+      ],
+      "damping_trend": [
+        0.8,
+        0.8853975948911499
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "Post-evaluation diagnostics, not new forecasting experiments",
+  "sign_convention": "prediction minus actual; positive is overprediction",
+  "selected": {
+    "days": 364,
+    "mae": 437.77627756949136,
+    "rmse": 489.01709987207903,
+    "bias_forecast_minus_actual": 361.9069008671787,
+    "median_signed_error": 425.04491766726505,
+    "overprediction_days": 326,
+    "underprediction_days": 38,
+    "actual_mean": 1267.3626373626373,
+    "prediction_mean": 1629.2695382298161
+  },
+  "bias_divided_by_mae": 0.8266937232790798,
+  "top10_error_share": 0.06106331802654495,
+  "point_estimates_or_intervals_changed": false,
+  "new_optimizer_fits": 0,
+  "new_competing_forecasts": 0,
+  "final_date_exclusions": 0,
+  "preselection_weekly_differenced_acf_lag7": -0.47698840089009387,
+  "seasonal_difference_order_contrast_tested": false
+}

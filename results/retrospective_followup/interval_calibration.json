@@ -1,0 +1,18 @@
+{
+  "procedures": {
+    "weekday_mean": {
+      "n": 112,
+      "lower_rank": 11,
+      "upper_rank": 102,
+      "lower_offset": -518.375,
+      "upper_offset": 624.5,
+      "nominal_pointwise_coverage": 0.8,
+      "updates": false
+    }
+  },
+  "target_start": "2025-06-15",
+  "target_end": "2025-10-04",
+  "point_selection_fixed": "weekday_mean",
+  "method": "fixed pooled signed-error order statistics, floor/ceil tail ranks",
+  "created_before_retrospective_candidate_scores": true
+}

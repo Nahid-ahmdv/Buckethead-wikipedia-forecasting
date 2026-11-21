@@ -1,0 +1,168 @@
+{
+  "implementation_sha256": "e4e7a0eda67cfe800209a56fc8b4f7a10841e959abbb2231b5b4785a9520460e",
+  "specifications": [
+    {
+      "family": "weekly_naive",
+      "window": "fixed",
+      "params": {}
+    },
+    {
+      "family": "weekday_mean",
+      "window": "fixed",
+      "params": {
+        "weeks": 4
+      }
+    },
+    {
+      "family": "weekday_mean",
+      "window": "fixed",
+      "params": {
+        "weeks": 8
+      }
+    },
+    {
+      "family": "sarimax",
+      "window": "three_years",
+      "params": {
+        "order": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "family": "sarimax",
+      "window": "three_years",
+      "params": {
+        "order": [
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "family": "sarimax",
+      "window": "three_years",
+      "params": {
+        "order": [
+          1,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "family": "sarimax",
+      "window": "three_years",
+      "params": {
+        "order": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "family": "prophet",
+      "window": "three_years",
+      "params": {
+        "changepoint_prior_scale": 0.01
+      }
+    },
+    {
+      "family": "prophet",
+      "window": "three_years",
+      "params": {
+        "changepoint_prior_scale": 0.1
+      }
+    },
+    {
+      "family": "lightgbm",
+      "window": "three_years",
+      "params": {
+        "num_leaves": 7
+      }
+    },
+    {
+      "family": "lightgbm",
+      "window": "three_years",
+      "params": {
+        "num_leaves": 15
+      }
+    },
+    {
+      "family": "sarimax",
+      "window": "expanding",
+      "params": {
+        "order": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "family": "sarimax",
+      "window": "expanding",
+      "params": {
+        "order": [
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "family": "sarimax",
+      "window": "expanding",
+      "params": {
+        "order": [
+          1,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "family": "sarimax",
+      "window": "expanding",
+      "params": {
+        "order": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "family": "prophet",
+      "window": "expanding",
+      "params": {
+        "changepoint_prior_scale": 0.01
+      }
+    },
+    {
+      "family": "prophet",
+      "window": "expanding",
+      "params": {
+        "changepoint_prior_scale": 0.1
+      }
+    },
+    {
+      "family": "lightgbm",
+      "window": "expanding",
+      "params": {
+        "num_leaves": 7
+      }
+    },
+    {
+      "family": "lightgbm",
+      "window": "expanding",
+      "params": {
+        "num_leaves": 15
+      }
+    }
+  ]
+}

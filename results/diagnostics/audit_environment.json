@@ -1,0 +1,9 @@
+{
+  "python": "3.10.18",
+  "numpy_imported": "1.26.4",
+  "pandas_imported": "2.3.3",
+  "matplotlib_imported": "3.10.6",
+  "checked_at_utc": "2026-11-05T15:02:26.896375+00:00",
+  "writes": "Phase 3 only",
+  "native_threads": 1
+}

@@ -1,0 +1,51 @@
+{
+  "python": "3.10.18 | packaged by conda-forge | (main, Jun  4 2025, 14:46:00) [Clang 18.1.8 ]",
+  "executable": "/opt/miniconda3/envs/handson-env/bin/python",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "modules": {
+    "numpy": {
+      "imported_version": "1.26.4",
+      "distribution_version": "2.2.6",
+      "path": "/opt/miniconda3/envs/handson-env/lib/python3.10/site-packages/numpy/__init__.py"
+    },
+    "pandas": {
+      "imported_version": "2.3.3",
+      "distribution_version": "2.3.3",
+      "path": "/opt/miniconda3/envs/handson-env/lib/python3.10/site-packages/pandas/__init__.py"
+    },
+    "scipy": {
+      "imported_version": "1.15.2",
+      "distribution_version": "1.15.2",
+      "path": "/opt/miniconda3/envs/handson-env/lib/python3.10/site-packages/scipy/__init__.py"
+    },
+    "statsmodels": {
+      "imported_version": "0.14.5",
+      "distribution_version": "0.14.5",
+      "path": "/opt/miniconda3/envs/handson-env/lib/python3.10/site-packages/statsmodels/__init__.py"
+    },
+    "matplotlib": {
+      "imported_version": "3.10.6",
+      "distribution_version": "3.10.5",
+      "path": "/opt/miniconda3/envs/handson-env/lib/python3.10/site-packages/matplotlib/__init__.py"
+    },
+    "nbformat": {
+      "imported_version": "5.10.4",
+      "distribution_version": "5.10.4",
+      "path": "/opt/miniconda3/envs/handson-env/lib/python3.10/site-packages/nbformat/__init__.py"
+    },
+    "nbclient": {
+      "imported_version": "0.10.2",
+      "distribution_version": "0.10.2",
+      "path": "/opt/miniconda3/envs/handson-env/lib/python3.10/site-packages/nbclient/__init__.py"
+    }
+  },
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "contract_sha256": "3f4e8dd2a07834e7143944c7eaa01c40efd7896a0b04160fc8b68a3632306689",
+  "raw_series_sha256": "24fd52457fd131725600428a3a1bbbb256dce882ecc5c29f406a93f75f14f14e",
+  "phase1_environment": "phase1/results/environment.json"
+}

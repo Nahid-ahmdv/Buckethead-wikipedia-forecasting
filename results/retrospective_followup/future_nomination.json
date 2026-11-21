@@ -1,0 +1,16 @@
+{
+  "nominee": "lgbm_correction",
+  "basis": "Lowest retrospective exploratory MAE among procedures with no retrospective fit failures; frozen tie rule",
+  "development_selected_id": "weekday_mean",
+  "nominee_has_evaluated_intervals": false,
+  "future_reference": "weekday_mean",
+  "fresh_confirmation": "pending; zero complete future paths in the frozen snapshot",
+  "planned_issues": [
+    "2026-11-08",
+    "2026-12-06",
+    "2027-01-03",
+    "2027-01-31"
+  ],
+  "forecasts_issued": false,
+  "interpretation": "Exploratory nomination, not an independently validated winner or calibrated deployment recommendation"
+}

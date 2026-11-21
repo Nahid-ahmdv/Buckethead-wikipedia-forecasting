@@ -1,0 +1,14 @@
+{
+  "scope": "pre-selection history and tuning-era information only",
+  "start": "2015-07-01",
+  "end": "2024-11-01",
+  "observations": 3412,
+  "mean": 1862.5697538100821,
+  "median": 1719.5,
+  "std": 787.5582020063791,
+  "p90": 2436.0,
+  "p99": 4247.939999999994,
+  "maximum": 24744.0,
+  "maximum_date": "2016-11-30",
+  "acf_lag7": 0.223618257509488
+}

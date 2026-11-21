@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "all_final_issues_probed": 13,
+  "future_tail_perturbation_procedure_cases": 39,
+  "sarimax_engine_spy_calls": 26,
+  "development_feature_cases": [
+    {
+      "issue": "2023-11-05",
+      "window": "expanding",
+      "complete_training_paths": 423,
+      "latest_label": "2023-10-28"
+    },
+    {
+      "issue": "2023-11-05",
+      "window": "three_years",
+      "complete_training_paths": 152,
+      "latest_label": "2023-10-28"
+    },
+    {
+      "issue": "2024-11-03",
+      "window": "expanding",
+      "complete_training_paths": 475,
+      "latest_label": "2024-10-26"
+    },
+    {
+      "issue": "2024-11-03",
+      "window": "three_years",
+      "complete_training_paths": 152,
+      "latest_label": "2024-10-26"
+    },
+    {
+      "issue": "2025-09-07",
+      "window": "expanding",
+      "complete_training_paths": 519,
+      "latest_label": "2025-08-30"
+    },
+    {
+      "issue": "2025-09-07",
+      "window": "three_years",
+      "complete_training_paths": 152,
+      "latest_label": "2025-08-30"
+    }
+  ],
+  "new_optimizer_fits": 0,
+  "qualification": "Spies establish adapter input boundaries; actual engine source inspection and stored-fit audits establish the remaining implementation contract."
+}

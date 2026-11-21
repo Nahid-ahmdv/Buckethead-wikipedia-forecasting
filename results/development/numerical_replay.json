@@ -1,0 +1,30 @@
+{
+  "motivation": "seasonal MA coefficients close to -1 in saved selection fits",
+  "policy": "diagnostic only; no new candidates, retuning, substitutions, or final evaluation",
+  "seasonal_ma_min": -0.9999838643914595,
+  "seasonal_ma_max": -0.9998368922741222,
+  "replays": [
+    {
+      "origin_id": "selection_01",
+      "issue": "2024-11-03",
+      "maximum_absolute_prediction_difference": 0.0,
+      "fallback": false,
+      "converged": true,
+      "runtime_seconds": 1.805493500083685,
+      "original_cache_key": "8d4c778716d15c9d4dfe6b1ce456d7da9f4600bd9f50c7aff7cfca67dbc8fcbe",
+      "original_results_replaced": false
+    },
+    {
+      "origin_id": "selection_12",
+      "issue": "2025-09-07",
+      "maximum_absolute_prediction_difference": 0.0,
+      "fallback": false,
+      "converged": true,
+      "runtime_seconds": 1.3225643751211464,
+      "original_cache_key": "58fcb931d08508a76e934960b397214009c2acd1f95c2a186157d33474ec1281",
+      "original_results_replaced": false
+    }
+  ],
+  "all_replay_predictions_match_within_1e_minus_8": true,
+  "limitations": "Two unchanged replays test repeatability in this environment, not global optimality or cross-environment robustness."
+}

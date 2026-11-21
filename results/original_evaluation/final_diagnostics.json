@@ -1,0 +1,17 @@
+{
+  "mean_prediction_minus_actual": 361.9069008671787,
+  "mean_actual": 1267.3626373626373,
+  "mean_selected_prediction": 1629.2695382298161,
+  "selected_path_wins": {
+    "weekday_mean": 2,
+    "weekly_naive": 3
+  },
+  "seasonal_ma_min": -0.9999864214338732,
+  "seasonal_ma_max": -0.9995444587398962,
+  "minimum_ma_root_modulus": 1.0000019398102125,
+  "optimizer_iteration_range": [
+    20,
+    37
+  ],
+  "interpretation": "Post-evaluation description of saved predictions; no new model fitting or attribution of causal mechanisms."
+}

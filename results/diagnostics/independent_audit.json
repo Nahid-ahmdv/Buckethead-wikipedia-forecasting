@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "scope": "Independent reconstruction from raw JSON and saved paths; no prior verifier or forecasting engine imported",
+  "frozen_files": {
+    "phase0": 42,
+    "phase1": 377,
+    "phase2": 71
+  },
+  "protected_files_including_manifests": 493,
+  "raw_canonical_days": 4141,
+  "access_sum_mismatches": 0,
+  "development_predictions_checked": 9072,
+  "final_predictions_checked": 1092,
+  "final_aggregation_populations": [
+    364,
+    335
+  ],
+  "calibration_rank": 270,
+  "interval_half_width": 408.2865285456919,
+  "notebook_cells_reviewed": 32,
+  "executed_code_cells": 16,
+  "embedded_images_reconciled": 7,
+  "correctness_errors_found": [],
+  "limitation": "Arithmetic and code inspection do not prove historical-as-of availability, analyst blindness, generalization, optimizer global optimality, or causal event effects."
+}

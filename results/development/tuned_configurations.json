@@ -1,0 +1,64 @@
+[
+  {
+    "family": "lightgbm",
+    "window": "expanding",
+    "params": {
+      "num_leaves": 7
+    }
+  },
+  {
+    "family": "lightgbm",
+    "window": "three_years",
+    "params": {
+      "num_leaves": 15
+    }
+  },
+  {
+    "family": "prophet",
+    "window": "expanding",
+    "params": {
+      "changepoint_prior_scale": 0.01
+    }
+  },
+  {
+    "family": "prophet",
+    "window": "three_years",
+    "params": {
+      "changepoint_prior_scale": 0.01
+    }
+  },
+  {
+    "family": "sarimax",
+    "window": "expanding",
+    "params": {
+      "order": [
+        1,
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "family": "sarimax",
+    "window": "three_years",
+    "params": {
+      "order": [
+        1,
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "family": "weekday_mean",
+    "window": "fixed",
+    "params": {
+      "weeks": 8
+    }
+  },
+  {
+    "family": "weekly_naive",
+    "window": "fixed",
+    "params": {}
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "protected_files": 539,
+  "records_verified": 288,
+  "daily_predictions_verified": 8064,
+  "saved_parameter_replays": 144,
+  "maximum_replay_difference": 6.821210263296962e-12,
+  "matched_ml_pairs_verified": 36,
+  "raw_lgbm_original_control_shared_days": 644,
+  "maximum_raw_lgbm_control_difference": 0.0,
+  "metric_population_rows": 40,
+  "selection_paths": 7,
+  "calibration_days": 112,
+  "fallbacks": 0,
+  "recorded_python_warnings": 13,
+  "fresh_future_paths_evaluated": 0,
+  "new_optimizer_fits_in_verifier": 0
+}

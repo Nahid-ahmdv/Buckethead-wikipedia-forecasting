@@ -1,0 +1,7 @@
+series,adf_statistic,adf_p,adf_lags,kpss_statistic,kpss_p_table_value,kpss_lags,warnings
+raw,-9.201066248186411,2.0014511401537273e-15,13,3.8512981779737587,0.01,30,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+"
+weekly_difference,-15.084561523738593,8.360819137975048e-28,28,0.0030479044615429407,0.1,2,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"

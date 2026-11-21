@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-11-05T14:21:36.837227+00:00",
+  "frozen_files_verified": {
+    "phase0": 42,
+    "phase1": 377
+  },
+  "development_selection_fits_checked": 12,
+  "refilter_forecasts_match": true,
+  "previous_unchanged_optimizer_replays": [
+    {
+      "origin_id": "selection_01",
+      "issue": "2024-11-03",
+      "maximum_absolute_prediction_difference": 0.0,
+      "fallback": false,
+      "converged": true,
+      "runtime_seconds": 1.805493500083685,
+      "original_cache_key": "8d4c778716d15c9d4dfe6b1ce456d7da9f4600bd9f50c7aff7cfca67dbc8fcbe",
+      "original_results_replaced": false
+    },
+    {
+      "origin_id": "selection_12",
+      "issue": "2025-09-07",
+      "maximum_absolute_prediction_difference": 0.0,
+      "fallback": false,
+      "converged": true,
+      "runtime_seconds": 1.3225643751211464,
+      "original_cache_key": "58fcb931d08508a76e934960b397214009c2acd1f95c2a186157d33474ec1281",
+      "original_results_replaced": false
+    }
+  ],
+  "minimum_ma_root_modulus": 1.0000023051081877,
+  "maximum_ma_root_modulus": 1.0000233032757146,
+  "final_target_values_loaded": false,
+  "final_performance_computed": false,
+  "targeted_tests_passed": 23,
+  "protocol_corrections": [],
+  "remaining_risks": "Seasonal MA close to -1; weak boundary identification and optimizer portability remain. Convergence is not global optimality. Two prior optimizer replays and twelve fixed-parameter refilters are environment-specific diagnostics, not robustness across environments.",
+  "failure_policy": "Unchanged: nonconvergence, nonfinite parameters/likelihood/forecast or recorded numerical exceptions trigger one logged weekly-naive fallback; include every path. No retries, new thresholds, or performance-driven substitutions. Near-boundary finite invertible fits are retained; programming errors propagate."
+}
